@@ -10,5 +10,5 @@ http.createServer(function (req, res) {
     var fileStr = fs.readFileSync('./index.html', 'utf8');
     res.end(fileStr);
 }).listen(server_port);
-console.log('listenning port 80');
+console.log('listenning port ' + server_port);
 
